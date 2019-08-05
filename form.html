@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Make a Form</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<form action="succes.html" name="myForm" id="form" method="post">
+<fieldset id="user"><br>
+  <legend> Required fields are indicated with a "<span class="reqField">*</span>"</legend>
+    <label for="firstName">Firstname <span class="reqField">*</span></label><br>
+        <input type="text" name="firstname" id="firstName" class="input" required><br><br>
+    <label for="name">Last name <span class="reqField">*</span></label> <br>
+        <input type="text" name="lastname" id="name" class="input" required><br><br>
+    <label for="userName">Username <span class="reqField">*</span></label> <br>
+       <input type="text" name= "username" id="userName" class="input" required><br><br>
+    <label for="email">e-mail<span class="reqField">*</span></label> <br>
+       <input type="email" name="email" id="email" class="input" placeholder="Only gmail!" required><p id="errorEmail"></p><br><br>
+    <label for="password">Password <span class="reqField">*</span></label><br>
+       <input type="password" name="psw" id="password" class="input" placeholder=" 1 Capital and 1 nmb required" required><p id="errorPsw"></p><br><br>
+    <label for="confirmPsw">Comfirm Password <span class="reqField">*</span></label> <br>
+       <input type="password" name="comfirmpsw" id="confirmPsw" class="input" required><p id="errorConfirm"></p><br><br>
+</fieldset><br>
+<fieldset id="info">
+  <legend>Personal information</legend><br>
+    <label for="adress">Address <span class="reqField">*</span></label> <br>
+       <input type="text" name="adress" id="adress" class="input" required><br><br>
+    <label for="city">City <span class="reqField">*</span></label> <br>
+       <input type="text" id="city" class="input" required><br><br>
+    <label for="zipCode">Zipcode <span class="reqField">*</span></label><br>
+       <input type="text" id="zipCode" class="input" required><br><br>
+    <label for="phone">Phonenumber</label><br>
+       <input type="tel" name="phone" id="phone" class="input" ><br><br>
+    <label for="age">Age</label><br>
+      <input type="number" name="age" id="age" class="input"><br><br>
+</fieldset><br>
+<fieldset>
+    <label for="hobbies">Hobbies</label><br>
+  <textarea  rows="5" cols="50" id="hobbies" class="input"></textarea><br><br>
+</fieldset>
+<div class='sbmt'>
+<input type="submit" value="submit" id="submit">
+</div>
+
+</form>
+
+
+
+<script src="form.js"></script>
+</body>
+</html>
