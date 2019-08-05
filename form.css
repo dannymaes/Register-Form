@@ -29,6 +29,7 @@ label{
 input{
   border-radius: 5px;
   height: 25px;
+  outline: none;
 }
 .reqField{
   color:red;
