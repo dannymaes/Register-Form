@@ -41,9 +41,6 @@ document.getElementById("submit").addEventListener("click", function(){
 
       }
 
-
-
-
 // check email :
         let eml = /^[a-zA-Z0-9_.+-]+@gmail.com+$/
            if(myEmail.match(eml)){
@@ -59,34 +56,3 @@ document.getElementById("submit").addEventListener("click", function(){
 
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-console.log("hello");
