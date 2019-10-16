@@ -2,6 +2,7 @@
 
 https://dannymaes.github.io/Register-Form/form.html
 
-I used method get to demonstrate here on github.
+Oefening Javascript
 
-you use the best method post for registration forms.
+Om te kunnen demonstreren hier op github heb ik method GET gebruikt .
+Op een formulier met gevoelige informatie gebruiken we natuurlijk POST
